@@ -1,0 +1,67 @@
+.contact-content {
+    margin: 40px auto;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url("../img/cricket.svg");
+    background-size: cover; 
+    background-position:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1; 
+    z-index: -1; 
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.form-box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 52vw;
+    padding: 10px 6px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-box textarea {
+    resize: none;
+}
+
+.form-box button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}

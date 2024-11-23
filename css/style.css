@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(245, 245, 255); */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.navigation {
+    height: 70px;
+    /* background-color: #333; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border: 1px solid #0068b1;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+}
+
+.nav-left {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+    /* #ffdbc1 */
+
+}
+
+.nav-left span {
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-left span a img {
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nav-left span a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav-left ul li a:hover {
+    color: #0068b1;
+    text-decoration: underline;
+}
+
+.nav-right input {
+    padding: 10px;
+    border: 1px solid #7691ad;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #f6f9fc;
+    color: #213343;
+}
+
+.nav-right .btn {
+    padding: 10px 15px;
+    background-color: #ff5c35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-right .btn:hover {
+    background-color: #e04826;
+    ;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 1200px;
+    background-color: #fcead7;
+    height: 100%;
+    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 10px; */
+}
+
+.content-left h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-left p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    margin-right: 35px;
+}
+
+.content-right img {
+    width: 355px;
+    /* border: 1px solid black; */
+    /* border-radius: 15px; */
+}
+
+.home-articles {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    position: relative;
+    
+}
+
+
+.year-box {
+    position: absolute;
+    /* background-color: red; */
+    width: 80px;
+    height: 85px;
+    right: 0px;
+    top: 2px;
+    font-size: 15px;
+    z-index: 10;
+}
+
+.year-box div{
+    margin-top: 2px;
+}
+.home-articles h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.article {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #fef4ea;
+    text-align: center;
+    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; */
+    transition: transform 0.3s ease;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+}
+
+.article-img img {
+    width: 330px;
+    /* max-width: 250px; */
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    /* border-radius: 10px; */
+    /* border: 1px solid black; */
+}
+
+.article-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.article-content a {
+    text-decoration: none;
+}
+
+.article-content div {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #192733;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007BFF;
+}
