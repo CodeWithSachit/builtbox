@@ -16,10 +16,13 @@
 .blog-post-content p {
   padding: 5px 30px;
   font-size: 18px;
+  
 }
 
 .row {
   display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .more-post{
@@ -30,6 +33,7 @@
 .blogpost-meta {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .author-info{

@@ -30,7 +30,7 @@
     align-items: center;
     z-index: 1;
     width: 40vw; 
-    margin-bottom: 15px; 
+    margin: 25px auto;
     padding: 30px 10px; 
     border: 1px solid black;
     /* border-radius: 10px;
