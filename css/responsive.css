@@ -98,9 +98,10 @@
         margin-right: auto;
     }
 
-    article-content {
+    .article-content {
         padding: 25px 10px;
     }
+    
 
     .article-content h3 {
         font-size: 13px;

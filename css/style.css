@@ -206,12 +206,18 @@ body {
     text-decoration: none;
 }
 
+.article-content a span{
+    color: black;
+ }
+
 .article-content div {
     color: #777;
     font-size: 14px;
     margin-bottom: 5px;
 }
-
+a {
+    text-decoration: none;
+}
 .footer {
     background-color: #192733;
     color: #fff;
